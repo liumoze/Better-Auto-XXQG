@@ -1,3 +1,19 @@
+新版QGApp不可用，autojs不可用，无法截图，MIUI14不可用解决办法：
+
+
+1、手机安装autoxjs，使用文档：http://doc.autoxjs.com/#/
+2、电脑安装vscode，且安装插件Auto.js-VSCodeExt，便于调试。使用方法参考相关文档
+3、手机安装太极框架（免ROOT），且安装模块DisableFlagSecure，使用方法参考相关文档
+4、手机安装最新版QGApp
+
+5、对0.js进行调试，修改相关代码，能够解决【无法截图】、【检测到新版‘我的’界面，官方限制无法识别出内容，请退回xxqgV2.41.0版及以下%n点击确定跳转下载历史版本】等问题
+
+6、导入到autoxjs。
+
+
+
+原介绍：
+
 # Better-Auto-XXQG
 学习强国-强国助手：基于AutoX开发
 
