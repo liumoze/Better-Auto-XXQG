@@ -3,6 +3,7 @@ name: sync
 on:
   schedule:
     - cron: '26 22 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   build:
