@@ -14,6 +14,8 @@ jobs:
       run: git clone https://gitcode.net/m0_64980826/songge_tiku.git
     - name: Commit files
       run: |
+        cd songge_tiku/
+        rm -rf .git/
         git config --local user.email "wuxiuhong_x@163.com"
         git config --local user.name "liumoze"
         git add songge_tiku/.
