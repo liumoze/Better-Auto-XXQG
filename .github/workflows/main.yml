@@ -9,14 +9,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - name: Auto Commit Pull
       run: git clone https://gitcode.net/m0_64980826/songge_tiku.git
     - name: Commit files
       run: |
         git config --local user.email "wuxiuhong_x@163.com"
         git config --local user.name "liumoze"
-        git add songge_tiku/
+        git add songge_tiku/.
         git commit -a -m "Add changes"
     - name: Push changes
       uses: ad-m/github-push-action@master
