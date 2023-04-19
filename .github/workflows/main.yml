@@ -2,7 +2,7 @@ name: sync
 
 on:
   schedule:
-    - cron: '25 21 * * 1-5'
+    - cron: '26 22 * * 1-5'
 
 jobs:
   build:
