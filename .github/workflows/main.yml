@@ -2,7 +2,7 @@ name: sync
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '25 21 * * 1-5'
 
 jobs:
   build:
@@ -12,5 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Auto Commit Push
-      run: |
-        git clone https://gitcode.net/m0_64980826/songge_tiku.git
+      run: git clone https://gitcode.net/m0_64980826/songge_tiku.git
