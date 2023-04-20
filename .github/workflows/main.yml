@@ -14,7 +14,9 @@ jobs:
         persist-credentials: false
         fetch-depth: 0
     - name: Auto Commit Pull
-      run: git clone https://gitcode.net/m0_64980826/songge_tiku.git
+      run: |
+        rm -rf songge_tiku/
+        git clone https://gitcode.net/m0_64980826/songge_tiku.git
     - name: Commit files
       run: |
         cd songge_tiku/
